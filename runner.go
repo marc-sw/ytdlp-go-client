@@ -10,6 +10,8 @@ type Runner struct {
 	ExecutablePath string
 }
 
+// main functionality
+
 func NewRunner(executablePath string) *Runner {
 	return &Runner{ExecutablePath: executablePath}
 }
